@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://rare-gallery.com/thumbnail/391758-fox-forest-scenery-digital-art-4k-pc-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+  }
+  div{
+    color: aliceblue;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+ 
+
+h1{
+    color: rgb(255, 107, 2);
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(255, 107, 2);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    font-size: 25px;
+}
+section{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+
+.liste> li{
+
+    color: rgb(254, 254, 247);
+    font-size: 25px;
+}
+
+.ommegselv{
+    color: rgb(253, 241, 6);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.første{
+    color: rgb(253, 241, 6);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.andre{
+    color:rgb(253, 241, 6);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.myhover{
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
