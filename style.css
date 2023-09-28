@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://rare-gallery.com/thumbnail/391758-fox-forest-scenery-digital-art-4k-pc-wallpaper.jpg');
+    margin: 0px;
+    background-image: url('fox.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -8,8 +9,11 @@ body {
     min-height: 100vh;
     height: 100vh;
   }
+
+  
+
   div{
-    color: aliceblue;
+    color:silver;
     font-size: 90px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -18,54 +22,109 @@ body {
  
 
 h1{
-    color: rgb(255, 107, 2);
+    color: white;
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 
 }
 
 h2{
     font-size: 50px;
-    color: rgb(255, 107, 2);
+    color:whitesmoke;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 p{
     font-family: 'Courier New', Courier, monospace;
-    color: gold;
-    font-size: 25px;
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    
 }
 section{
-    color: rgb(255, 0, 0);
+    
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
  
 
 .liste> li{
-
-    color: rgb(254, 254, 247);
+    list-style: none;
+    color: white;
     font-size: 25px;
+    text-align: center;
 }
 
-.ommegselv{
-    color: rgb(253, 241, 6);
+
+.om_meg_selv{
+    color: silver;
     font-family: 'Courier New', Courier, monospace;
 
 }
 
 .første{
-    color: rgb(253, 241, 6);
+    color: silver;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .andre{
-    color:rgb(253, 241, 6);
+    color:silver;
     font-family: 'Courier New', Courier, monospace;
 }
+.Tre{
+    color: silver;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
 
-.myhover{
-    color: antiquewhite;
+.my_hover{
+    display: flex;
+    color: silver;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
+}
+
+.one,.uno{
+    color: white;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.two,.dos{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my_web{
+    display: flex;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    justify-content: center;
+    
+}
+
+.tre,.tres{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
+    }
+
+    
+
+    .footer{
+       
+        color: white;
+        white-space: pre;
+        font-size: 25px;
+    }
