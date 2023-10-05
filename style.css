@@ -10,8 +10,6 @@ body {
     height: 100vh;
   }
 
-  
-
   div{
     color:silver;
     font-size: 90px;
@@ -19,14 +17,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
   }
 
- 
-
 h1{
     color: white;
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-
 }
 
 h2{
@@ -40,9 +35,9 @@ p{
     font-family: 'Courier New', Courier, monospace;
     color: orange;
     font-size: 30px;
-    text-align: center;
-    
+    text-align: center;   
 }
+
 section{
     
     font-size: 30px;
@@ -50,7 +45,6 @@ section{
     text-align: center;
 }
  
-
 .liste> li{
     list-style: none;
     color: white;
@@ -58,11 +52,9 @@ section{
     text-align: center;
 }
 
-
 .om_meg_selv{
     color: silver;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 .første{
@@ -76,9 +68,7 @@ section{
 }
 .Tre{
     color: silver;
-    font-family: 'Courier New', Courier, monospace;
-    
-    
+    font-family: 'Courier New', Courier, monospace;    
 }
 
 .my_hover{
@@ -86,8 +76,7 @@ section{
     color: silver;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .one,.uno{
@@ -107,8 +96,7 @@ section{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .tre,.tres{
@@ -117,14 +105,33 @@ section{
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     justify-content: center;
-    
     }
 
-    
+    .four,.fire{
+        display: flex;
+        color: white;
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        justify-content: center;
+    }
 
     .footer{
-       
         color: white;
         white-space: pre;
         font-size: 25px;
+    }
+
+    /*responsive opp til desktop*/
+    @media(min-height: 1025px){
+
+    }
+
+    /*responsive opp til tablet*/
+    @media(min-height: 770px){
+
+    }
+
+    /*responsive opp til mobil*/
+    @media(min-height: 340px){
+
     }
